@@ -1,16 +1,3 @@
-# --------------------------
-# 设置日志
-# --------------------------
-log_dir <- "logs"
-dir.create(log_dir, showWarnings = FALSE)
-log_file <- file.path(log_dir, paste0("train_RF_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".log"))
-
-# 开始记录
-message("Starting nested CV processing. Log will be saved to: ", log_file)
-con <- file(log_file, open = "wt")
-sink(con, type = "output")
-sink(con, type = "message")
-
 library(randomForest)
 ## load RF model
 rfcv <- readRDS("../RF_model/RF_model.rds")
