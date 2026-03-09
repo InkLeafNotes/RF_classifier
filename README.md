@@ -19,4 +19,22 @@ RF_model/run_train_RF_model.R
 data/run_makebetaKk.R
 ```
 
-### 
+### Internal validation using RF classifier
+```R
+vRF/run_nested_vRF.R
+```
+
+## MR model Calibration
+```R
+calibrate/calibration_MR_model.R
+```
+
+## Predict
+Preprocess the 850K methylation array data
+```R
+predict/preprocess.R
+```
+predict new sample calibrated score with RF-model and MR-model
+```R
+predict.R
+```
