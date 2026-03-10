@@ -52,4 +52,4 @@ predict/predict.R
 minfi, randomForest, glmnet, doMC, data.table, GEOquery, limma
 
 ## Third-party Code Reference
-Scripts adapted from [ml4calibrated450k](https://github.com/mematt/ml4calibrated450k) and [mnp_training](https://github.com/mwsill/mnp_training) (see individual script comments for details)
+Scripts inspired by or adapted from [ml4calibrated450k](https://github.com/mematt/ml4calibrated450k) and [mnp_training](https://github.com/mwsill/mnp_training) (see individual script comments for details)
