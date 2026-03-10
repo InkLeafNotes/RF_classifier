@@ -46,7 +46,7 @@ predict/preprocess.R
 ```
 Predict with trained RF model and calibrate scores using the MR model, output integration results
 ```R
-predict.R
+predict/predict.R
 ```
 ## Key Dependencies
 minfi, randomForest, glmnet, doMC, data.table, GEOquery, limma
